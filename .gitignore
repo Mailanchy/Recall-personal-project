@@ -1,1 +1,45 @@
+# =========================
+# Virtual Environments
+# =========================
 .venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Byte-compiled / Cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.secret
+
+# =========================
+# Distribution / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# IDEs and OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
