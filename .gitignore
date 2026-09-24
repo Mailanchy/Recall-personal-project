@@ -5,7 +5,6 @@
 venv/
 env/
 ENV/
-
 # =========================
 # Byte-compiled / Cache
 # =========================
@@ -43,3 +42,4 @@ htmlcov/
 .idea/
 .DS_Store
 Thumbs.db
+

@@ -1,0 +1,20 @@
+# Core
+python-dotenv==1.2.3
+
+# Text processing
+langchain==1.4.2
+langchain-text-splitters==1.1.2
+
+# Database
+SQLAlchemy==2.0.54
+alembic==1.20.0
+psycopg[binary]==3.3.6
+pgvector==0.5.0
+
+# Agent framework (used from week 2)
+langgraph==1.2.11
+langsmith==0.13.0
+
+# API (used from week 3)
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
