@@ -25,7 +25,7 @@ class Chunk(Base):
     __tablename__ = "chunks"
 
     id: Mapped[uuid.UUID] = mapped_column(default=uuid.uuid4, primary_key=True)
-    chunk: Mapped[str] = mapped_column(Text)
+    content: Mapped[str] = mapped_column(Text)
     material_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("materials.id"))
     headings: Mapped[str] = mapped_column(Text)
     position: Mapped[int]

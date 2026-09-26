@@ -1,45 +1,33 @@
-# =========================
-# Virtual Environments
-# =========================
+# Virtual environments
 .venv/
 venv/
 env/
-ENV/
-# =========================
-# Byte-compiled / Cache
-# =========================
+
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
-.pytest_cache/
-
-# =========================
-# Environment Variables
-# =========================
-.env
-.env.*
-*.secret
-
-# =========================
-# Distribution / Packaging
-# =========================
+*.egg-info/
 build/
 dist/
-*.egg-info/
-*.egg
 
-# =========================
-# Testing / Coverage
-# =========================
+# Secrets — but keep the example
+.env
+.env.local
+!.env.example
+
+# Testing
+.pytest_cache/
 .coverage
 htmlcov/
-.tox/
 
-# =========================
-# IDEs and OS files
-# =========================
+# IDE and OS
 .vscode/
 .idea/
 .DS_Store
-Thumbs.db
 
+# Project
+uploads/
+*.log
+
+test.py
+test.md
